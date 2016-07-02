@@ -4,13 +4,13 @@
 
 var config = {
   // - Your app's id on moneypot.com
-  app_id: 1325,                             // <----------------------------- EDIT ME!
+  app_id: 1346,                             // <----------------------------- EDIT ME!
   // - Displayed in the navbar
   app_name: 'NeoDice',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
-  recaptcha_sitekey: '6LdI2CMTAAAAAGMWJ-lJ3k2PXrjlxgcjuzmeq5kq',  // <----- EDIT ME!
-  redirect_uri: 'http://neodice.ml/',
+  recaptcha_sitekey: '6LexiiMTAAAAAII9AQijWuTVpYwHNq5r-WPpGUPL',  // <----- EDIT ME!
+  redirect_uri: 'https://neodice.manydice.ml',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: 'https://a-chat-server.herokuapp.com',
@@ -1853,10 +1853,10 @@ var Footer = React.createClass({
           marginBottom: '30px'
         }
       },
-      'copyright 2015 ',
+      'copyright 2016 ',
       el.a(
         {
-          href: 'https://neodice.github.io'
+          href: 'https://neodice.manydice.ml'
         },
         'neodice'
       ),
